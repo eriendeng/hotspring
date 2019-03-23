@@ -1,0 +1,16 @@
+.information {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 5% 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box {
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
+}

@@ -1,0 +1,13 @@
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+.navi p a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1em;
+}

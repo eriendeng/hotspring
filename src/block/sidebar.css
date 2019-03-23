@@ -1,0 +1,28 @@
+.sidebar {
+    z-index: 99;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu div {
+    width: 87px;
+    height: 97px;
+}
+
+.qrcode {
+    background-image: url("../img/qrcode.png");
+}
+.contact {
+    background-image: url("../img/contact.png");
+}
+.top {
+    background-image: url("../img/top.png");
+}

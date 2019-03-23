@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./block/header"
+import Navibar from "./block/navibar";
+import Sidebar from "./block/sidebar";
+import Banner from "./block/banner";
+import Information from "./block/information";
+import Footer from "./block/footer";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+          <Header />
+          <Navibar />
+          <Sidebar />
+          <Banner/>
+          <Information />
+          <Footer />
+          <p style={{
+              textAlign:"center",
+              color:"#a2a2a2",
+              fontSize:"0.8em"
+          }}
+          >Author Erien@97516719@qq.com</p>
       </div>
     );
   }

@@ -1,0 +1,24 @@
+.header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #3d3d3d;
+    align-items:center;
+    justify-content: start;
+
+}
+.header p {
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.header p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.header p a:hover {
+    color: #1ba19d;
+    transition-duration: 0.3s;
+}

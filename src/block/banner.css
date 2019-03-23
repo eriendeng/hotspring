@@ -1,0 +1,39 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("../img/20171225202307425.png");
+    min-height: 376px;
+}
+
+.hot {
+    height: 30px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    font-size: 0.9em;
+}
+
+.hot p {
+    height: 15px;
+    line-height: 15px;
+    margin: 0;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.hot p a {
+    border-bottom: 3px rgba(0,0,0,0) solid;
+    text-decoration: none;
+    color: white;
+}
+
+.hot p a:hover {
+    transition-duration: 1s;
+    border-bottom: 3px #1ba19d solid;
+    color: white;
+}

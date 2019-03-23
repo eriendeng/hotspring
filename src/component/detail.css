@@ -1,0 +1,39 @@
+.detail {
+    width: 88%;
+    border: 2px #c6c6c6 solid;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+
+.detailbox {
+    width: 40%;
+    box-sizing: border-box;
+    background-color: white;
+    height: 120px;
+    margin: 1% 0 1% 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.more{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    font-size: 0.81em;
+    text-align: left;
+}
+
+.more p a {
+    text-align: right;
+    color: #1ba19d;
+    text-decoration: none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
